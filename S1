@@ -5,7 +5,7 @@ network:
     enp3s0:
       addresses:
         - 10.10.10.2/24
-      gateway4: 10.10.10.1
+      gateway4: 10.10.10.2
       nameservers:
           search: [mydomain, otherdomain]
           addresses: [10.10.10.1, 1.1.1.1]
